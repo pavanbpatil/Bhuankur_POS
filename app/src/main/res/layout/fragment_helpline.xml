@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".fragment.Helpline">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="48"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/technical_helpline"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorRedButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:text="@string/you_can_call_us_on"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="+91 9999999999"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/call_now"
+                android:drawableLeft="@drawable/ic_call"
+                android:drawablePadding="@dimen/padding_10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_send_us_any_query_on"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="tech_support@poshinda.com"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/mail_now"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:drawableLeft="@drawable/ic_mail"
+                android:drawablePadding="@dimen/padding_10dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_connect_us_on_skype"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="live:poshinda_tech"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/connect_now"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:drawableLeft="@drawable/ic_skype"
+                android:drawablePadding="@dimen/padding_10dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="1dp"
+            android:layout_marginVertical="@dimen/margin_5dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="48"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/operational_helpline"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorRedButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:text="@string/you_can_call_us_on"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="+91 9999999999"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/call_now"
+                android:drawableLeft="@drawable/ic_call"
+                android:drawablePadding="@dimen/padding_10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_send_us_any_query_on"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="operation_support@poshinda.com"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/mail_now"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:drawableLeft="@drawable/ic_mail"
+                android:drawablePadding="@dimen/padding_10dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_connect_us_on_skype"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginHorizontal="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="live:poshinda_operation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_border_red_button_1"
+                android:drawableTint="@color/colorRedButton"
+                android:textColor="@color/colorRedButton"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/padding_10dp"
+                android:paddingVertical="@dimen/margin_3dp"
+                android:text="@string/connect_now"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:drawableLeft="@drawable/ic_skype"
+                android:drawablePadding="@dimen/padding_10dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginVertical="@dimen/margin_10dp"
+            android:background="@color/colorGraytext2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_border_orange"
+    android:paddingHorizontal="@dimen/padding_10dp"
+    android:paddingVertical="@dimen/padding_10dp"
+    android:layout_marginTop="@dimen/padding_10dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tvSrno"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:textColor="@color/colorRedButton"
+        android:layout_gravity="center"
+        android:text="1"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="25"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRedButton"
+            android:text="Pending Cart 1"/>
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_3dp"
+            android:text="29th May2020 | 4:03 PM"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorRedButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_height="wrap_content"
+        android:text="54"/>
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorRedButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_height="wrap_content"
+        android:text="5"/>
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorRedButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_height="wrap_content"
+        android:text="450"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="25">
+        <Button
+            android:id="@+id/btClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:theme="@style/RedButtonStyle" />
+
+        <Button
+            android:id="@+id/btOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:theme="@style/GreenButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

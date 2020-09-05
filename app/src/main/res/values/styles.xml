@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+       </style>
+
+    <style name="GreenButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="PrimaryLightButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@color/colorRedButton</item>
+    </style>
+
+    <style name="WhiteGreenButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorWhite</item>
+        <item name="colorBackgroundFloating">@color/colorAccent</item>
+        <item name="color">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorRedButton</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="backgroundTint">@color/colorRedButton</item>
+        <item name="android:textColor">@color/colorRedButton</item>
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+    </style>
+
+
+</resources>

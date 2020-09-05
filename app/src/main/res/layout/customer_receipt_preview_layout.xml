@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btPrint">
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorWhite"
+            android:paddingBottom="@dimen/margin_20dp"
+            android:paddingHorizontal="@dimen/padding_10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/margin_10dp"
+                android:src="@drawable/splash_logo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_14sp"
+                android:text="POS STORE ID: 123456"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textSize="@dimen/text_size_14sp"
+                android:text="Date: 29th May 2020 | 07:00 PM"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textSize="@dimen/text_size_14sp"
+                android:text="Receipt No: 4556895625"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textSize="@dimen/text_size_14sp"
+                android:text="Customer Contact: 9999999999"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textSize="@dimen/text_size_14sp"
+                android:text="Payment Mode:  Cash"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/colorBlack"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/margin_3dp"
+                android:layout_marginTop="@dimen/margin_3dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/item"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/qty"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/rate"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:text="@string/total1"
+                    android:gravity="right"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_3dp"
+                android:background="@color/colorBlack"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPreview"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/colorBlack"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/margin_3dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="70"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/sub_total"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:text="1000"
+                    android:gravity="right"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/margin_3dp"
+                android:layout_marginTop="@dimen/margin_3dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="70"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/discount"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:text="1000"
+                    android:gravity="right"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@color/colorBlack"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/margin_3dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="70"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:text="@string/grand_total"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:text="1000"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supplier Name: Pavan B. Patil"
+                android:gravity="left"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: 999999999"
+                android:gravity="left"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank you..visit again !!"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_14sp" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button
+        android:id="@+id/btPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/print"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/margin_10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingHorizontal="@dimen/padding_30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:theme="@style/GreenButtonStyle" />
+</RelativeLayout>

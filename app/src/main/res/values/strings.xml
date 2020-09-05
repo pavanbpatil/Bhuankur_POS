@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">AlphaonePOS</string>
+    <string name="all_rights">"All rights reserved @ Alphaone "</string>
+    <string name="login_to_poshinda_pos">Login to Poshinda POS</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="or">OR</string>
+    <string name="login_with_password">Login With Password</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="login_with_otp">Login With OTP</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="verify_mobile_number">Verify Mobile Number</string>
+    <string name="enter_otp_sent_on_your_registered_mobile_number">Enter OTP sent on your registered mobile number</string>
+    <string name="_">_</string>
+    <string name="verify">Verify</string>
+    <string name="didnt_received_otp_yet">Didn\'t received OTP yet?</string>
+    <string name="resend_otp"><u>Resend OTP</u></string>
+    <string name="todays_sale">Today\'s Sale</string>
+    <string name="todays_receipts">Today\'s Receipts</string>
+    <string name="receipt_no">Receipt Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pending_cart">Pending Cart</string>
+    <string name="update_crates">Update Crates</string>
+    <string name="stock">Stock</string>
+    <string name="sale">Sale</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="user_guide">User Guide</string>
+    <string name="other">Other</string>
+    <string name="product_name">Product Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="cancel">Cancel</string>
+    <string name="unit">Unit</string>
+    <string name="rate_per_unit">Rate/Unit</string>
+    <string name="total">Total (INR)</string>
+    <string name="select_product">Select Product</string>
+    <string name="search_product">Search Product</string>
+    <string name="recent_products">Recent Products</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruits">Fruits</string>
+    <string name="kg">Kg</string>
+    <string name="cart_details">Cart Details</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="amount_payable_after_discount">Amount Payable After Discount</string>
+    <string name="rupee">₹</string>
+    <string name="item">Item</string>
+    <string name="qty">Qty.</string>
+    <string name="rate">Rate</string>
+    <string name="amount">Amount</string>
+    <string name="keep_pending">Keep Pending</string>
+    <string name="checkout">Checkout</string>
+    <string name="verify_cart_and_checkout">Verify Cart And Checkout</string>
+    <string name="total_weight">Total Weight</string>
+    <string name="total_items">Total Items</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="cart_items">Cart Items</string>
+    <string name="customer_mobile_number">Customer Mobile Number</string>
+    <string name="discount">Discount</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="enter_discount_amount">Enter Discount Amount</string>
+    <string name="cash">Cash</string>
+    <string name="back">Go Back</string>
+    <string name="checkout_and_print">Checkout And Print</string>
+    <string name="print_preview">Print Preview</string>
+    <string name="total1">Total</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="supplier_details">Supplier Details</string>
+    <string name="no">No.</string>
+    <string name="action">Action</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="total_inward">Total Inward</string>
+    <string name="total_inward_kg">Total Inward (Kg)</string>
+    <string name="total_sold">Total Sold</string>
+    <string name="total_sold_kg">Total Sold (Kg)</string>
+    <string name="balance_stock">Balance Stock</string>
+    <string name="balance_stock_kg">Balance Stock (Kg)</string>
+    <string name="stock_details">Stock Details</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="update_crates_and_packets">Update Crates And Packets</string>
+    <string name="update_todays_crates_packets">Update Today\'s Crates/Packets</string>
+    <string name="update_crates_at_the_end_of_the_day">Update crates/packets at the end of daily sale only</string>
+    <string name="rfid">RFID</string>
+    <string name="product">Product</string>
+    <string name="sold">Sold</string>
+    <string name="balance">Balance</string>
+    <string name="add">Add</string>
+    <string name="weight">Weight</string>
+    <string name="sold_weight">Sold Weight</string>
+    <string name="balance_weight">Balance Weight</string>
+    <string name="total_sold_weight">Total Sold Weight</string>
+    <string name="total_receipts">Total Receipts</string>
+    <string name="search">Search</string>
+    <string name="sale_by_product">Sale By Product</string>
+    <string name="sale_by_receipts">Sale By Receipt</string>
+    <string name="sold_amount">Sold Amount</string>
+    <string name="print">Print</string>
+    <string name="helpline">Helpline</string>
+    <string name="technical_helpline">Technical Helpline</string>
+    <string name="you_can_call_us_on">You can call us on</string>
+    <string name="call_now">Call Now</string>
+    <string name="operational_helpline">Operational Helpline</string>
+    <string name="you_can_send_us_any_query_on">You can send us any query on</string>
+    <string name="mail_now">Mail Now</string>
+    <string name="you_can_connect_us_on_skype">You can connect us on Skype</string>
+    <string name="connect_now">Connect Now</string>
+    <string name="security">Security</string>
+    <string name="change_password">Change Password</string>
+    <string name="printer">Printer</string>
+    <string name="devices">Devices</string>
+    <string name="weighing_machine">Weighing Machine</string>
+    <string name="printer_type">Printer Type</string>
+    <string name="printing_type">Printing Type</string>
+    <string name="print_count">Print Count</string>
+    <string name="enter_pos_id">Enter POS ID</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="spinner_title">Select</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="some_technical_issue">Some technical issue occured</string>
+    <string name="loading">Loading</string>
+    <string name="ok">Ok</string>
+    <string name="failure_icon"></string>
+    <string name="success_icon"></string>
+
+    <string-array name="printer_type">
+        <item>2 inch (32 char)</item>
+        <item>3 inch (48 char)</item>
+    </string-array>
+    <string-array name="printing_type">
+        <item>Normal</item>
+        <item>Graphical</item>
+    </string-array>
+    <string-array name="print_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

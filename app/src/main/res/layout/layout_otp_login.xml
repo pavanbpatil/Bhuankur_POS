@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/login_to_poshinda_pos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border_green"
+            android:paddingHorizontal="@dimen/padding_20dp"
+            android:paddingVertical="@dimen/padding_10dp"
+            android:text="+91"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:layout_width="@dimen/width_250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:background="@drawable/custom_border_green"
+            android:hint="@string/enter_mobile_number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingHorizontal="@dimen/padding_20dp"
+            android:paddingVertical="@dimen/padding_10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btGetOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_55dp"
+        android:text="@string/get_otp"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:theme="@style/GreenButtonStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/or"
+        android:layout_margin="@dimen/margin_10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <Button
+        android:id="@+id/btLoginWithPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_with_password"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:paddingHorizontal="@dimen/padding_20dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@drawable/custom_border_green"/>
+</LinearLayout>
